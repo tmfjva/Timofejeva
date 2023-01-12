@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+//int main() {
+//	int age;
+//	cin >> age;
+//	if (age >= 0 && age <=100) { cout << "ok" << endl; }
+//	else cout << "wrong" << endl;
+//	cout << "exit";
+//}
+//int main() {
+//	int catage,dogage;
+//	cin >> catage >> dogage;
+//	if (catage > 0 && catage <=25) { cout << "ok cats age" << endl; }
+//	else cout << "wrong cats age" << endl;
+//	if (dogage > 0 && dogage <=30) { cout << "ok dogs age" << endl; }
+//	else cout << "wrong dogs age" << endl;
+//	cout << "exit";
+//}
+//int main() {
+//	int mark, age, height;
+//	cin >> mark >> age >> height;
+//	if (mark > 0 && mark <= 10) { cout << "correct mark" << endl; }
+//	else cout << "wrong mark" << endl;
+//	if (age >= 6 && age <= 20) { cout << "correct age" << endl; }
+//	else cout << "wrong age" << endl;
+//	if (height >= 130 && height <= 200) { cout << "correct height" << endl; }
+//	else cout << "wrong height" << endl;
+//}
+int main() {
+	int age = 1;
+	string p = "a1", pin;
+	cin >> pin;
+	if (p == pin) { cout << "correct password "; cout << age; }
+	else cout << "wrong password" << endl;
+}
